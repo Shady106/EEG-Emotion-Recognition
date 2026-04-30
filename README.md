@@ -170,20 +170,11 @@ Recommended structure:
 EEG-Emotion-Recognition/
 │
 ├── README.md
-├── EEG_Emotion_Recognition_LSTM_GRU_dola.ipynb
+├── EEG_Emotion_Recognition_LSTM_GRU.ipynb
 │
-├── models/
-│   ├── lstm_model.keras
-│   └── gru_model.keras
+├── emotions (1).csv
 │
-├── results/
-│   ├── lstm_accuracy_loss.png
-│   ├── gru_accuracy_loss.png
-│   ├── lstm_confusion_matrix.png
-│   └── gru_confusion_matrix.png
-│
-└── data/
-    └── README.md
+└── README.md
 ```
 
 Note: The dataset file is not included in this repository if it is too large or private.
@@ -195,7 +186,7 @@ Note: The dataset file is not included in this repository if it is too large or 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/EEG-Emotion-Recognition.git
+git clone https://github.com/Shady106/EEG-Emotion-Recognition.git
 cd EEG-Emotion-Recognition
 ```
 
@@ -208,7 +199,7 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn
 3. Open the notebook:
 
 ```text
-EEG_Emotion_Recognition_LSTM_GRU_dola.ipynb
+EEG_Emotion_Recognition_LSTM_GRU.ipynb
 ```
 
 4. Run the notebook cells in order.
