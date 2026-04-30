@@ -169,12 +169,11 @@ Recommended structure:
 ```text
 EEG-Emotion-Recognition/
 │
-├── README.md
 ├── EEG_Emotion_Recognition_LSTM_GRU.ipynb
 │
-├── emotions (1).csv
+├── README.md
 │
-└── README.md
+└── emotions (1).csv
 ```
 
 Note: The dataset file is not included in this repository if it is too large or private.
